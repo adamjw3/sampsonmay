@@ -25,13 +25,21 @@ h2,
 h3,
 p,
 ul,
-li {
+li,
+button {
     margin: 0;
     padding: 0;
     border: 0;
     font: inherit;
     vertical-align: baseline;
     outline: none;
+}
+
+button {
+    border-radius: 0;
+    font: inherit;
+    margin: 0;
+    padding: 0;
 }
 
 ul {
@@ -115,10 +123,10 @@ main {
 
 .c-featured-news__filter-button {
     border-radius: 5px;
-    border-color: var(--black);
+    border: 1px solid var(--black);
     color: var(--black);
     cursor: pointer;
-    padding: 10px;
+    padding: 10px 15px;
 }
 
 .c-featured-news__filter-button:hover,
